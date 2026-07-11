@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+  <link href="style.css" rel = "stylesheet"/>
+</head>
+<body>
+  
+    <div class = "calculator">
+    <div>
+    <input type="text" id="result" placeholder="Calculation goes here!" readonly>
+    <div>
+    <button onclick = "deletelastdigit();">Del</button>
+    <button onclick = "allclear();">AC</button>
+    <button onclick = "updatecalculation('%')">%</button>
+    <button onclick = "  updatecalculation('√');">√</button>
+  </div>
+   <div>
+    <button onclick = "updatecalculation('7')">7</button>
+    <button onclick = "updatecalculation('8')">8</button>
+    <button onclick = "updatecalculation('9')">9</button>
+    <button onclick = "updatecalculation('/')">÷</button>
+  </div>
+   <div>
+    <button onclick = "updatecalculation('4') ">4</button>
+    <button onclick = "updatecalculation('5') ">5</button>
+    <button onclick = "updatecalculation('6') ">6</button>
+    <button onclick = "updatecalculation('*') ">x</button>
+  </div>
+  <div>
+    <button onclick = "updatecalculation('1')">1</button>
+    <button onclick = "updatecalculation('2')">2</button>
+    <button onclick = "updatecalculation('3')">3</button>
+    <button onclick = "updatecalculation('-')">-</button>
+  </div>
+  <div>
+    <button onclick = "updatecalculation('+')" >+</button>
+    <button onclick = "updatecalculation('.')" >.</button>
+    <button onclick = "updatecalculation('0')" >0</button>
+    <button onclick = "equalto();" >=</button>
+  </div>
+  </div>
+  
+  
+  
+  <script src = "index.js"></script>
+</body>
+</html>

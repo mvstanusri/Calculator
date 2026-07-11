@@ -1,0 +1,40 @@
+
+body{
+  min-height: 100vh;
+   font-family: "Chelsea Market", system-ui;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(34, 40, 49);
+}
+.calculator{
+  border: 30px solid rgb(0, 173, 181);
+  padding: 20px;
+  border-radius: 15px;
+ 
+}
+.calculator:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button{
+  height: 60px;
+  width: 70px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(57, 62, 70);
+  font-size: 20px;
+}
+input{
+  height: 70px;
+  width: 280px;
+  color: rgb(238, 238, 238);
+  text-align: end;
+  padding-right: 10px;
+  font-size: 24px;
+  background-color: rgb(57, 62, 70);
+}
+button:hover{
+  background-color: rgba(120, 120, 120, 0.479);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

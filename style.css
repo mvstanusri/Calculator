@@ -38,3 +38,22 @@ button:hover{
   background-color: rgba(120, 120, 120, 0.479);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+@media (max-width: 480px) {
+  .calculator {
+    width: 280px;
+    border-width: 15px;
+    padding: 15px;
+  }
+
+  button {
+    width: 58px;
+    height: 58px;
+  }
+  input {
+  width: 96%;
+  box-sizing: border-box;
+}
+input::placeholder {
+    font-size: 15px;
+  }
+}

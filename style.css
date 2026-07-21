@@ -8,15 +8,20 @@ body{
    background-color: rgb(34, 40, 49);
 }
 .calculator{
-  border: 30px solid rgb(0, 173, 181);
-  padding: 20px;
+  border: 3px solid rgb(0, 173, 181);
+  padding: 25px;
+  background: rgb(45, 50, 58); 
   border-radius: 15px;
  
 }
 .calculator:hover{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
+button,
+input{
+    border:none;
+    outline:none;
+}
 button{
   height: 60px;
   width: 70px;
@@ -24,6 +29,7 @@ button{
   color: white;
   background-color: rgb(57, 62, 70);
   font-size: 20px;
+  border:1px solid rgba(255,255,255,.08);
 }
 input{
   height: 70px;
@@ -35,8 +41,8 @@ input{
   background-color: rgb(57, 62, 70);
 }
 button:hover{
-  background-color: rgba(120, 120, 120, 0.479);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(45, 50, 58);
+ 
 }
 @media (max-width: 480px) {
   .calculator {

@@ -20,11 +20,7 @@ A simple calculator built with HTML, CSS, and JavaScript as part of The Odin Pro
 
 ## Live Demo
 
-https://mvstanusri.github.io/Calculator/
-
-## Repository
-
-https://github.com/mvstanusri/Calculator
+https://tanxdebug.github.io/Calculator/
 
 
 ## What I Learned

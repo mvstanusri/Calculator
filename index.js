@@ -10,7 +10,12 @@ document.addEventListener("keydown", function(event){
     else if(event.key === 'Enter'){
        equalto();
     }
-
+    
+    else if(event.key === 'Backspace'|| event.key === ''){
+      deletelastdigit();
+     
+    }
+    
 });
 function updatecalculation(symbol){
   
